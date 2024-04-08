@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.end-1 {
+  inset-inline-end: 0.25rem;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -648,6 +652,22 @@ video {
 
 .ml-12 {
   margin-left: 3rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
 }
 
 .flex {
@@ -770,8 +790,20 @@ video {
   width: 2.25rem;
 }
 
+.w-2\/12 {
+  width: 16.666667%;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-between {
@@ -889,6 +921,10 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .align-middle {
