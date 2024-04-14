@@ -6,6 +6,7 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body class="bg-white">
+  <header>
   <!--Logo and icons navbar-->
   <div class="flex bg-white ml-3 h-12">
     <img src="../images/YouTube.png" alt="YouTube Logo" class="bg-white w-1/5 pr-2 mr-5 ml-2 h-auto">
@@ -32,17 +33,38 @@
       <span class="bg-slate-200 border border-slate-300 rounded-2xl p-2">Movies</span>
     </p>
   </div>
+</header>
+<main class="sm:hidden flex flex-wrap">
+  <!--Sidebar-->
+  <div class="sm:hidden bg-white md:w-1/4 lg:w-1/5 h-screen p-4">
+    <img src="../icons/cast.png" alt="home-icon" class="h-5 mt-3">
+    <img src="../icons/notifications.png" alt="shorts icon" class="h-5 mt-3">
+    <img src="../icons/search.png" alt="add icon" class="h-5 mt-3">
+    <img src="../icons/account-circle.png" alt="subscription icon" class="h-5 mt-3">
+    <img src="../icons/account-circle.png" alt="library icon" class="h-5 mt-3">
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
   <!--First video container-->
-  <div class=" mt-5">  
-      <img src="../images/Billie-Eilish-vevo.jpg" alt="Billie Eilish Vevo thumbnail" class="w-full h-auto">
+  <div class="col-span-1">
+    <div class="block">
+    <div class="">
+      <img src="../images/Billie-Eilish-vevo.jpg" alt="Billie Eilish Vevo thumbnail" class="max-w-full h-auto">
+    </div>
+    <div class="">
       <p class="text-sm text-black ml-3 mt-2">My Mix
         <br>
         <span class="text-xs text-slate-500">Billie Eilish, David Kushner, Tom Odell, and more</span>
       </p>
+    </div>
+  </div>
   </div>
   <!--Second video container-->
-  <div class="mt-3">
-    <img src="../images/Netflix-is-a-joke.jpg" alt="Netflix is a joke thumbnail" class="w-full h-auto">
+  <div class="col-span-1">
+     <div class="block">
+      <div>
+    <img src="../images/Netflix-is-a-joke.jpg" alt="Netflix is a joke thumbnail" class="max-w-full h-auto">
+      </div>
+      <div class="block">
     <div class="flex">
       <p class="text-sm text-black ml-3 mt-2 flex flex-1">
         <img src="../images/Netflix-profile-photo.jpg" alt="Profile photo of Netflix is a joke " class="w-9 h-auto rounded-full flex">
@@ -56,10 +78,16 @@
     <p class="text-xs text-slate-500 mt-2 ml-14"> 
       Netflix Is A Joke . 160k views. 1 month ago
       </p>
+    </div>
+     </div>
   </div>
   <!--Third video container-->
-  <div class="mt-3">
-    <img src="../images/What-was-i-made-for-vevo.jpg" alt="Netflix is a joke thumbnail" class="w-full h-auto">
+  <div class="col-span-1">
+    <div class="block">
+      <div>
+    <img src="../images/What-was-i-made-for-vevo.jpg" alt="Netflix is a joke thumbnail" class="max-w-full h-auto">
+     </div>
+     <div>
     <div class="flex">
       <p class="text-sm text-black ml-3 mt-2 flex flex-1">
         <img src="../images/billie-thumbnail.jpg" alt="Profile photo of Netflix is a joke " class="w-9 h-auto rounded-full flex">
@@ -70,9 +98,13 @@
     </div>
     <p class="text-xs text-slate-500 mt-2 ml-14"> 
       Billie Eilish. 2.1M views. 1 month ago
-      </p>
+    </p>
   </div>
-  <footer class="py-4 bottom-0 fixed z-50">
+</div>
+</div>
+</div>
+</main>
+<footer class="py-4 bottom-0 fixed z-50">
     <p class="flex">
     <img src="../icons/cast.png" alt="home-icon" class="h-5 mt-3">
     <img src="../icons/notifications.png" alt="shorts icon" class="h-5 mt-3">
