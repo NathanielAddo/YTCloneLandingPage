@@ -39,4 +39,4 @@ The landing page includes various elements such as the navigation bar, search ba
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
 
-Please make sure to follow the Contributing Guidelines and adhere to the Code of Conduct.
+Please make sure to follow the [Contributing Guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) and adhere to the [Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct).
