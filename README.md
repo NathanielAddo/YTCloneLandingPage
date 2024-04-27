@@ -31,7 +31,7 @@ The landing page includes various elements such as the navigation bar, search ba
    ```bash
    git clone https://github.com/NathanielAddo/YTCloneLandingPage.git
    
-2. Navigate into the project directory:
+2. Navigate into the project directory:  
    cd youtube-landing-page-clone
 
 4. Open the index.html file in your web browser to view the cloned landing page of YouTube.
