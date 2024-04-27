@@ -4,7 +4,7 @@ This repository contains a cloned version of the landing page of YouTube. It aim
 
 ## Description
 
-The landing page includes various elements such as the navigation bar, search bar, featured videos, trending videos, sidebar, and footer. It is built using HTML, and Tailwind CSS.
+The landing page includes various elements such as the navigation bar, search bar, featured videos, trending videos, sidebar, and footer. It is built using HTML, JavaScript, and Tailwind CSS.
 
 ## Preview
 
@@ -23,6 +23,7 @@ The landing page includes various elements such as the navigation bar, search ba
 
 - HTML
 - Tailwind CSS
+- JavaScript
 
 ## Usage
 
